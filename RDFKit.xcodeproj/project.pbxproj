@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F33E04C187E034500913A7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E04B187E034300913A7E /* Cocoa.framework */; };
+		5F33E056187E034600913A7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F33E054187E034600913A7E /* InfoPlist.strings */; };
+		5F33E05A187E034900913A7E /* RDFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E059187E034900913A7E /* RDFKit.m */; };
+		5F33E061187E035600913A7E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E060187E035600913A7E /* XCTest.framework */; };
+		5F33E062187E035600913A7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E04B187E034300913A7E /* Cocoa.framework */; };
+		5F33E065187E035600913A7E /* RDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E048187E034200913A7E /* RDFKit.framework */; };
+		5F33E06B187E035600913A7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F33E069187E035600913A7E /* InfoPlist.strings */; };
+		5F33E06D187E035600913A7E /* RDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E06C187E035600913A7E /* RDFKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F33E063187E035600913A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F33E03F187E033000913A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F33E047187E033A00913A7E;
+			remoteInfo = RDFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F33E048187E034200913A7E /* RDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F33E04B187E034300913A7E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5F33E04E187E034500913A7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F33E04F187E034500913A7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F33E050187E034500913A7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5F33E053187E034600913A7E /* RDFKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDFKit-Info.plist"; sourceTree = "<group>"; };
+		5F33E055187E034600913A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F33E057187E034600913A7E /* RDFKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDFKit-Prefix.pch"; sourceTree = "<group>"; };
+		5F33E058187E034900913A7E /* RDFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDFKit.h; sourceTree = "<group>"; };
+		5F33E059187E034900913A7E /* RDFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFKit.m; sourceTree = "<group>"; };
+		5F33E05F187E035600913A7E /* RDFKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDFKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F33E060187E035600913A7E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F33E068187E035600913A7E /* RDFKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDFKitTests-Info.plist"; sourceTree = "<group>"; };
+		5F33E06A187E035600913A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F33E06C187E035600913A7E /* RDFKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F33E044187E033A00913A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E04C187E034500913A7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33E05C187E035600913A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E062187E035600913A7E /* Cocoa.framework in Frameworks */,
+				5F33E061187E035600913A7E /* XCTest.framework in Frameworks */,
+				5F33E065187E035600913A7E /* RDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F33E03E187E032E00913A7E = {
+			isa = PBXGroup;
+			children = (
+				5F33E051187E034500913A7E /* RDFKit */,
+				5F33E066187E035600913A7E /* RDFKitTests */,
+				5F33E04A187E034200913A7E /* Frameworks */,
+				5F33E049187E034200913A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F33E049187E034200913A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E048187E034200913A7E /* RDFKit.framework */,
+				5F33E05F187E035600913A7E /* RDFKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F33E04A187E034200913A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E04B187E034300913A7E /* Cocoa.framework */,
+				5F33E060187E035600913A7E /* XCTest.framework */,
+				5F33E04D187E034500913A7E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F33E04D187E034500913A7E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E04E187E034500913A7E /* Foundation.framework */,
+				5F33E04F187E034500913A7E /* CoreData.framework */,
+				5F33E050187E034500913A7E /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5F33E051187E034500913A7E /* RDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E058187E034900913A7E /* RDFKit.h */,
+				5F33E059187E034900913A7E /* RDFKit.m */,
+				5F33E052187E034500913A7E /* Supporting Files */,
+			);
+			path = RDFKit;
+			sourceTree = "<group>";
+		};
+		5F33E052187E034500913A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E053187E034600913A7E /* RDFKit-Info.plist */,
+				5F33E054187E034600913A7E /* InfoPlist.strings */,
+				5F33E057187E034600913A7E /* RDFKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F33E066187E035600913A7E /* RDFKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E06C187E035600913A7E /* RDFKitTests.m */,
+				5F33E067187E035600913A7E /* Supporting Files */,
+			);
+			path = RDFKitTests;
+			sourceTree = "<group>";
+		};
+		5F33E067187E035600913A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E068187E035600913A7E /* RDFKitTests-Info.plist */,
+				5F33E069187E035600913A7E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F33E045187E033A00913A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F33E047187E033A00913A7E /* RDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F33E070187E035700913A7E /* Build configuration list for PBXNativeTarget "RDFKit" */;
+			buildPhases = (
+				5F33E043187E033A00913A7E /* Sources */,
+				5F33E044187E033A00913A7E /* Frameworks */,
+				5F33E045187E033A00913A7E /* Headers */,
+				5F33E046187E033A00913A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDFKit;
+			productName = RDFKit;
+			productReference = 5F33E048187E034200913A7E /* RDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F33E05E187E035600913A7E /* RDFKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F33E073187E035700913A7E /* Build configuration list for PBXNativeTarget "RDFKitTests" */;
+			buildPhases = (
+				5F33E05B187E035600913A7E /* Sources */,
+				5F33E05C187E035600913A7E /* Frameworks */,
+				5F33E05D187E035600913A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F33E064187E035600913A7E /* PBXTargetDependency */,
+			);
+			name = RDFKitTests;
+			productName = RDFKitTests;
+			productReference = 5F33E05F187E035600913A7E /* RDFKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F33E03F187E033000913A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lapsed Pacifist";
+				TargetAttributes = {
+					5F33E05E187E035600913A7E = {
+						TestTargetID = 5F33E047187E033A00913A7E;
+					};
+				};
+			};
+			buildConfigurationList = 5F33E042187E033700913A7E /* Build configuration list for PBXProject "RDFKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F33E03E187E032E00913A7E;
+			productRefGroup = 5F33E049187E034200913A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F33E047187E033A00913A7E /* RDFKit */,
+				5F33E05E187E035600913A7E /* RDFKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F33E046187E033A00913A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E056187E034600913A7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33E05D187E035600913A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E06B187E035600913A7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F33E043187E033A00913A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E05A187E034900913A7E /* RDFKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F33E05B187E035600913A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33E06D187E035600913A7E /* RDFKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F33E064187E035600913A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F33E047187E033A00913A7E /* RDFKit */;
+			targetProxy = 5F33E063187E035600913A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F33E054187E034600913A7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F33E055187E034600913A7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F33E069187E035600913A7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F33E06A187E035600913A7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F33E06E187E035700913A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F33E06F187E035700913A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F33E071187E035700913A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				INFOPLIST_FILE = "RDFKit/RDFKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		5F33E072187E035700913A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				INFOPLIST_FILE = "RDFKit/RDFKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		5F33E074187E035700913A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RDFKit.framework/Versions/A/RDFKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RDFKitTests/RDFKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5F33E075187E035700913A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RDFKit.framework/Versions/A/RDFKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				INFOPLIST_FILE = "RDFKitTests/RDFKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F33E042187E033700913A7E /* Build configuration list for PBXProject "RDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33E06E187E035700913A7E /* Debug */,
+				5F33E06F187E035700913A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F33E070187E035700913A7E /* Build configuration list for PBXNativeTarget "RDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33E071187E035700913A7E /* Debug */,
+				5F33E072187E035700913A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F33E073187E035700913A7E /* Build configuration list for PBXNativeTarget "RDFKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33E074187E035700913A7E /* Debug */,
+				5F33E075187E035700913A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F33E03F187E033000913A7E /* Project object */;
+}
