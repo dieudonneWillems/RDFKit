@@ -12,7 +12,6 @@
 		5F33E05A187E034900913A7E /* RDFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E059187E034900913A7E /* RDFKit.m */; };
 		5F33E061187E035600913A7E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E060187E035600913A7E /* XCTest.framework */; };
 		5F33E062187E035600913A7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E04B187E034300913A7E /* Cocoa.framework */; };
-		5F33E065187E035600913A7E /* RDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E048187E034200913A7E /* RDFKit.framework */; };
 		5F33E06B187E035600913A7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F33E069187E035600913A7E /* InfoPlist.strings */; };
 		5F33E06D187E035600913A7E /* RDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E06C187E035600913A7E /* RDFKitTests.m */; };
 		5F33E078187E054B00913A7E /* RDFValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E076187E054A00913A7E /* RDFValue.h */; };
@@ -25,10 +24,12 @@
 		5F33E086187E059F00913A7E /* RDFURI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E084187E059F00913A7E /* RDFURI.m */; };
 		5F33E089187E05B000913A7E /* RDFStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E087187E05B000913A7E /* RDFStatement.h */; };
 		5F33E08A187E05B000913A7E /* RDFStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E088187E05B000913A7E /* RDFStatement.m */; };
+		5FF9AC72187EBCD600774CD3 /* RDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E048187E034200913A7E /* RDFKit.framework */; };
+		5FF9AC75187EBCEA00774CD3 /* RDFKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F33E048187E034200913A7E /* RDFKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F33E063187E035600913A7E /* PBXContainerItemProxy */ = {
+		5FF9AC73187EBCDD00774CD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F33E03F187E033000913A7E /* Project object */;
 			proxyType = 1;
@@ -36,6 +37,28 @@
 			remoteInfo = RDFKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FF9AC6F187EB72900774CD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF9AC70187EB73500774CD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5FF9AC75187EBCEA00774CD3 /* RDFKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5F33E048187E034200913A7E /* RDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,9 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF9AC72187EBCD600774CD3 /* RDFKit.framework in Frameworks */,
 				5F33E062187E035600913A7E /* Cocoa.framework in Frameworks */,
 				5F33E061187E035600913A7E /* XCTest.framework in Frameworks */,
-				5F33E065187E035600913A7E /* RDFKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +231,7 @@
 				5F33E044187E033A00913A7E /* Frameworks */,
 				5F33E045187E033A00913A7E /* Headers */,
 				5F33E046187E033A00913A7E /* Resources */,
+				5FF9AC6F187EB72900774CD3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -225,11 +249,12 @@
 				5F33E05B187E035600913A7E /* Sources */,
 				5F33E05C187E035600913A7E /* Frameworks */,
 				5F33E05D187E035600913A7E /* Resources */,
+				5FF9AC70187EB73500774CD3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5F33E064187E035600913A7E /* PBXTargetDependency */,
+				5FF9AC74187EBCDD00774CD3 /* PBXTargetDependency */,
 			);
 			name = RDFKitTests;
 			productName = RDFKitTests;
@@ -312,10 +337,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F33E064187E035600913A7E /* PBXTargetDependency */ = {
+		5FF9AC74187EBCDD00774CD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5F33E047187E033A00913A7E /* RDFKit */;
-			targetProxy = 5F33E063187E035600913A7E /* PBXContainerItemProxy */;
+			targetProxy = 5FF9AC73187EBCDD00774CD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,7 +441,16 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
 				INFOPLIST_FILE = "RDFKit/RDFKit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -431,7 +465,16 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RDFKit/RDFKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
 				INFOPLIST_FILE = "RDFKit/RDFKit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
