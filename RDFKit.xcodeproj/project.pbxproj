@@ -15,6 +15,16 @@
 		5F33E065187E035600913A7E /* RDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F33E048187E034200913A7E /* RDFKit.framework */; };
 		5F33E06B187E035600913A7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F33E069187E035600913A7E /* InfoPlist.strings */; };
 		5F33E06D187E035600913A7E /* RDFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E06C187E035600913A7E /* RDFKitTests.m */; };
+		5F33E078187E054B00913A7E /* RDFValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E076187E054A00913A7E /* RDFValue.h */; };
+		5F33E079187E054B00913A7E /* RDFValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E077187E054B00913A7E /* RDFValue.m */; };
+		5F33E07D187E057200913A7E /* RDFLiteral.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E07B187E057200913A7E /* RDFLiteral.h */; };
+		5F33E07E187E057200913A7E /* RDFLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E07C187E057200913A7E /* RDFLiteral.m */; };
+		5F33E081187E058200913A7E /* RDFResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E07F187E058200913A7E /* RDFResource.h */; };
+		5F33E082187E058200913A7E /* RDFResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E080187E058200913A7E /* RDFResource.m */; };
+		5F33E085187E059F00913A7E /* RDFURI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E083187E059F00913A7E /* RDFURI.h */; };
+		5F33E086187E059F00913A7E /* RDFURI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E084187E059F00913A7E /* RDFURI.m */; };
+		5F33E089187E05B000913A7E /* RDFStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33E087187E05B000913A7E /* RDFStatement.h */; };
+		5F33E08A187E05B000913A7E /* RDFStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F33E088187E05B000913A7E /* RDFStatement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +34,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F33E047187E033A00913A7E;
 			remoteInfo = RDFKit;
+		};
+		5F33E092187E8A7400913A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		5F33E094187E8A7400913A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		5F33E096187E8A7400913A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		5F33E098187E8A7400913A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,6 +81,17 @@
 		5F33E068187E035600913A7E /* RDFKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDFKitTests-Info.plist"; sourceTree = "<group>"; };
 		5F33E06A187E035600913A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F33E06C187E035600913A7E /* RDFKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFKitTests.m; sourceTree = "<group>"; };
+		5F33E076187E054A00913A7E /* RDFValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFValue.h; sourceTree = "<group>"; };
+		5F33E077187E054B00913A7E /* RDFValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFValue.m; sourceTree = "<group>"; };
+		5F33E07B187E057200913A7E /* RDFLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFLiteral.h; sourceTree = "<group>"; };
+		5F33E07C187E057200913A7E /* RDFLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFLiteral.m; sourceTree = "<group>"; };
+		5F33E07F187E058200913A7E /* RDFResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFResource.h; sourceTree = "<group>"; };
+		5F33E080187E058200913A7E /* RDFResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFResource.m; sourceTree = "<group>"; };
+		5F33E083187E059F00913A7E /* RDFURI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFURI.h; sourceTree = "<group>"; };
+		5F33E084187E059F00913A7E /* RDFURI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFURI.m; sourceTree = "<group>"; };
+		5F33E087187E05B000913A7E /* RDFStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDFStatement.h; sourceTree = "<group>"; };
+		5F33E088187E05B000913A7E /* RDFStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDFStatement.m; sourceTree = "<group>"; };
+		5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = "../RestKit-0.20.3/RestKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +119,7 @@
 		5F33E03E187E032E00913A7E = {
 			isa = PBXGroup;
 			children = (
+				5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */,
 				5F33E051187E034500913A7E /* RDFKit */,
 				5F33E066187E035600913A7E /* RDFKitTests */,
 				5F33E04A187E034200913A7E /* Frameworks */,
@@ -109,6 +159,7 @@
 		5F33E051187E034500913A7E /* RDFKit */ = {
 			isa = PBXGroup;
 			children = (
+				5F33E07A187E055200913A7E /* Model */,
 				5F33E058187E034900913A7E /* RDFKit.h */,
 				5F33E059187E034900913A7E /* RDFKit.m */,
 				5F33E052187E034500913A7E /* Supporting Files */,
@@ -144,6 +195,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5F33E07A187E055200913A7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E087187E05B000913A7E /* RDFStatement.h */,
+				5F33E088187E05B000913A7E /* RDFStatement.m */,
+				5F33E076187E054A00913A7E /* RDFValue.h */,
+				5F33E077187E054B00913A7E /* RDFValue.m */,
+				5F33E07F187E058200913A7E /* RDFResource.h */,
+				5F33E080187E058200913A7E /* RDFResource.m */,
+				5F33E083187E059F00913A7E /* RDFURI.h */,
+				5F33E084187E059F00913A7E /* RDFURI.m */,
+				5F33E07B187E057200913A7E /* RDFLiteral.h */,
+				5F33E07C187E057200913A7E /* RDFLiteral.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F33E08C187E8A6200913A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F33E093187E8A7400913A7E /* libRestKit.a */,
+				5F33E095187E8A7400913A7E /* RestKitTests.octest */,
+				5F33E097187E8A7400913A7E /* RestKit.framework */,
+				5F33E099187E8A7400913A7E /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +230,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F33E078187E054B00913A7E /* RDFValue.h in Headers */,
+				5F33E089187E05B000913A7E /* RDFStatement.h in Headers */,
+				5F33E081187E058200913A7E /* RDFResource.h in Headers */,
+				5F33E085187E059F00913A7E /* RDFURI.h in Headers */,
+				5F33E07D187E057200913A7E /* RDFLiteral.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +301,12 @@
 			mainGroup = 5F33E03E187E032E00913A7E;
 			productRefGroup = 5F33E049187E034200913A7E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5F33E08C187E8A6200913A7E /* Products */;
+					ProjectRef = 5F33E08B187E8A6000913A7E /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5F33E047187E033A00913A7E /* RDFKit */,
@@ -224,6 +314,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5F33E093187E8A7400913A7E /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 5F33E092187E8A7400913A7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F33E095187E8A7400913A7E /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 5F33E094187E8A7400913A7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F33E097187E8A7400913A7E /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 5F33E096187E8A7400913A7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F33E099187E8A7400913A7E /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 5F33E098187E8A7400913A7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5F33E046187E033A00913A7E /* Resources */ = {
@@ -249,7 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F33E08A187E05B000913A7E /* RDFStatement.m in Sources */,
+				5F33E082187E058200913A7E /* RDFResource.m in Sources */,
+				5F33E079187E054B00913A7E /* RDFValue.m in Sources */,
+				5F33E086187E059F00913A7E /* RDFURI.m in Sources */,
 				5F33E05A187E034900913A7E /* RDFKit.m in Sources */,
+				5F33E07E187E057200913A7E /* RDFLiteral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
